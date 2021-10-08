@@ -76,6 +76,7 @@ using ExportAll
         tsi::Number
     end
     include("PSP.jl")
+    include("PSPp.jl")
     include("SemiconductorPoint.jl")
     include("1DSemiconductor.jl")
     include("MOS.jl")

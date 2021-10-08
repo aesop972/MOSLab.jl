@@ -90,6 +90,10 @@ end
 
 ψs_PSPs(Vg,V,MOS::MOSStructure) = PSP_psiS(Vg,abs(C(MOS)),MOS.tox,VFB(MOS),Temperature(MOS),ϕb(MOS),V)[1]
 
+ψs_PSPp(Vg,MOS::MOSStructure) = PSP_VaricapPsip(Vg,abs(C(MOS)),MOS.tox,VFB(MOS),Temperature(MOS),ϕb(MOS))
+
+ψs_PSPsp(Vg,V,MOS::MOSStructure) = PSP_psiSp(Vg,abs(C(MOS)),MOS.tox,VFB(MOS),Temperature(MOS),ϕb(MOS),V)[1]
+
 function ψs(Vg,MOS::MOSStructure)
     ψ₀, = PSP_VaricapPsi(Vg,abs(C(MOS)),MOS.tox,VFB(MOS),Temperature(MOS),ϕb(MOS))
     QF(psi) = -ϵ₀*ϵᵣ(MOS.semiconductor)*ξ(MOS.semiconductor,psi)
