@@ -9,7 +9,7 @@ using ExportAll
     using NLsolve
     using LinearAlgebra
     using DiffEqOperators
-    using Plots
+    #using Plots #Using gadfly for field extraction. Gadfly conflicts with Plots
     using Roots
     using LaTeXStrings
     using DifferentialEquations
