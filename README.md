@@ -329,7 +329,7 @@ PSP surface potential P sperates from N
 ![PsiImage](Examples/Figures/PMOS10.png)
 
 ## Electric Field with Potential
-PSP surface potential P sperates from N 
+Gadfly plots the Efield and potential contour
 ![PsiImage](Examples/Figures/IdVg2.gif)
 
 ## Electron and Hole currents are collected 
