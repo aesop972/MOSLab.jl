@@ -326,7 +326,7 @@ Project Link: [https://github.com/Rapos0/MOSLab.jl](https://github.com/Rapos0/MO
 ## PMOS Potential
 
 PSP surface potential P sperates from N 
-![PsiImage](Examples/Figures/PMOS10png.png)
+![PsiImage](Examples/Figures/PMOS10.png)
 
 ## Electric Field with Potential
 PSP surface potential P sperates from N 
